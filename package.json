@@ -1,10 +1,9 @@
 {
-    "scripts": {
-      "test": "jest"
-     
-    },
-    "devDependencies": {
-      "jest": "^27.2.4"  
-    }
+  "scripts": {
+    "test": "node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4"  
   }
-  
+}
+
