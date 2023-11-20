@@ -1,8 +1,8 @@
-// jest.config.js
 module.exports = {
-    testEnvironment: 'jsdom', // For DOM-related testing
-    testMatch: ['<rootDir>/tests/**/*.test.js'], // Unit tests
-    setupFilesAfterEnv: ['<rootDir>/tests/setup.js'], // Setup file for Jest environment
-    // Other Jest configurations...
-  };
-  
+  testEnvironment: 'node',
+  testMatch: ['<rootDir>/tests/**/*.test.js'],
+  setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
+  moduleFileExtensions: ['js', 'json', 'ts'],
+  transformIgnorePatterns: ['/node_modules/(?!puppeteer)']
+  // Other Jest configurations...
+};

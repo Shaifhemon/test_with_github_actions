@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "test": "node_modules/.bin/jest"
+    "test": "npx jest"
   },
   "devDependencies": {
-    "jest": "^27.2.4"  
+    "jest": "^27.5.1",
+    "puppeteer": "^21.5.2",
+    "puppeteer-core": "^21.5.2"
   }
 }
-

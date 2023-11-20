@@ -1,7 +1,7 @@
 // tests/setup.js
-const { setup: setupPuppeteer } = require('jest-environment-puppeteer');
+// tests/setup.js
 
 module.exports = async () => {
-  await setupPuppeteer();
+  // No specific setup needed for Jest environment
 };
 
