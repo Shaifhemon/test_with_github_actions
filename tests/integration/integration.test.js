@@ -7,7 +7,7 @@ let page;
 
 beforeAll(async () => {
   // Specify the path to your Chrome executable
-  const executablePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'; // Update this path
+  const executablePath = '/usr/bin/google-chrome'; // Update this path
 
   browser = await puppeteer.launch({ executablePath });
   page = await browser.newPage();

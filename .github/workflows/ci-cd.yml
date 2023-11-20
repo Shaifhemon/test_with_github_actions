@@ -23,5 +23,10 @@ jobs:
           npm install
           ls -R node_modules
 
+      - name: Install Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
       - name: Run Unit and Integration Tests
         run: npm test
